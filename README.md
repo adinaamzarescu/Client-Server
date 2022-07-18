@@ -1,7 +1,7 @@
 ## CLIENT - SERVER
 ### Copyright Adina-Amzarescu, 321CA
 
-This poject simulates a newsletter application. The main implementation
+This project simulates a newsletter application. The main implementation
 was the server.
 
 * Server

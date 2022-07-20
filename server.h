@@ -19,6 +19,7 @@ void init_sockets(char *port_char, int *udp_sock, int *tcp_sock);
 void manage_server(int *tcp, int *udp, fd_set *file);
 
 void manage_tcp (int *tcp, struct sockaddr_in *new, int *max_val, struct client *clients, fd_set *file);
+
 void manage_udp(int *udp, struct sockaddr_in *addr, int *max_val, struct client *clients, fd_set *file);
 void stop_server(int max, fd_set *file_descr);
 
